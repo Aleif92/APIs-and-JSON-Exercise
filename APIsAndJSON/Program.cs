@@ -7,7 +7,9 @@ namespace APIsAndJSON
     {
         static void Main(string[] args)
         {
-            RonVSKanyeAPI.Convo();
+           // RonVSKanyeAPI.Convo();
+           
+           OpenWeatherMapAPI.GetTemp();
 
             
           
