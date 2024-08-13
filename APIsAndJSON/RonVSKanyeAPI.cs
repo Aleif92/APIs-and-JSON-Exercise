@@ -17,8 +17,9 @@ namespace APIsAndJSON
             for (int i = 0; i < 5; i++)
             {
                 Console.WriteLine($"Kanye says:\n {GetKenyeQoute(client)}\n");
-                Thread.Sleep(2000);
+                Thread.Sleep(4000);
                 Console.WriteLine($"Ron says:\n{GetRonQuote(client)}\n");
+                Thread.Sleep(4000);
             }
         }
 
